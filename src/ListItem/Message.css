@@ -1,0 +1,13 @@
+.message {
+  display: flex;
+  align-items: flex-start;
+  margin: 1em 0;
+}
+
+.message.is-current-user {
+  flex-direction: row-reverse;
+}
+
+.message > * {
+  margin: 0 0.5em;
+}

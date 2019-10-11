@@ -1,0 +1,30 @@
+.text {
+  max-width: 70%;
+  padding: 0.25em 0.6em;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.is-current-user .text {
+  background-color: yellowgreen;
+}
+
+.money {
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.money-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  background-color: red;
+  color: #fff;
+}
+
+.money-footer {
+  font-size: 0.75rem;
+  background-color: #fff;
+}
